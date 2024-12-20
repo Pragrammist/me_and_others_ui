@@ -19,6 +19,6 @@ Further documentation can be found at <https://hexdocs.pm/front_ui>.
 ## Development
 
 ```sh
-gleam run   # Run the project
+gleam run -m lustre/dev start --tailwind-entry=front_ui.css   # Run the project
 gleam test  # Run the tests
 ```
