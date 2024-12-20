@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-primary {
+    @apply bg-gradient-to-r from-neutral-900 to-neutral-800;
+  }
+  .bg-secondary {
+    @apply bg-neutral-800
+  }
+
+  .font-ui-primary {
+    @apply text-base font-normal text-neutral-300
+  }
+  .clearfy-input{
+    @apply focus:outline-none bg-inherit
+  }
+  .input-base {
+    @apply clearfy-input text-base font-ui-primary placeholder-neutral-300
+  }
+  .input-large {
+    @apply clearfy-input text-xl placeholder-neutral-600 text-neutral-600
+  }
+}
