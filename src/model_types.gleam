@@ -14,4 +14,9 @@ pub type AccountHeaderState {
 pub type AccountBodyState {
   ShowAddThoughtInput
   ShowThoughtList
+  ShowThoughtFiles
+  ShowThoughtGifs
+  ShowThoughtMedia
+  ShowThoughtStickers
+  ShowEmptyBody
 }

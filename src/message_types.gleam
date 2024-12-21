@@ -1,10 +1,14 @@
 pub type Msg {
-  UserClickThoughtPanel(msg_type: UserClickThoughtPanelType)
+  UserClickThoughtHeader(msg_type: UserClickThoughtHeaderType)
 }
 
-pub type UserClickThoughtPanelType {
+pub type UserClickThoughtHeaderType {
   ThoughtList
   AddThought
   SearchByAttachment
   SearchByThoughtContent
+  ShowThoughtStickers
+  ShowThoughtGifs
+  ShowThoughtFiles
+  ShowThoughtMedia
 }

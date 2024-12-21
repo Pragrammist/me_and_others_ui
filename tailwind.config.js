@@ -1,3 +1,7 @@
+// /** @type {import('tailwindcss').Config} */
+// const plugin = require('tailwindcss/plugin');
+// const flattenColorPalette = require('tailwindcss/lib/util/flattenColorPalette').default;
+
 module.exports = {
   content: ["./index.html", "./src/**/*.{gleam,mjs}"],
   theme: {
@@ -8,5 +12,16 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    // plugin(function({ matchUtilities, theme }) {
+    //   matchUtilities(
+    //     {
+    //       'stop-color': (value) => ({
+    //         stopColor: value
+    //       }),
+    //     },
+    //     { values: flattenColorPalette(theme('colors')), type: 'color' }
+    //   )
+    // })
+  ],
 };

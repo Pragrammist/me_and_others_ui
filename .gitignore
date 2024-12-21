@@ -2,3 +2,5 @@
 *.ez
 /build
 erl_crash.dump
+**/front_ui.css
+**/front_ui.mjs
